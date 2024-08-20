@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Logitech MX Master 3",
+        "description": "The Logitech MX Master 3 is the most advanced Master Series mouse yet. It offers precise control and features a sleek design.",
+        "brand": "Logitech",
+        "price": 99.99,
+        "image": "/images/MXMaster3.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Razer DeathAdder V2",
+        "description": "Razer DeathAdder V2 is a wired mouse that provides superior gaming performance with a 20,000 DPI optical sensor.",
+        "brand": "Razer",
+        "price": 69.99,
+        "image": "/images/Razer_DeathAdderV2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Corsair Dark Core RGB/SE",
+        "description": "Corsair Dark Core RGB/SE is a wireless mouse with Qi wireless charging and customizable RGB lighting.",
+        "brand": "Corsair",
+        "price": 89.99,
+        "image": "/images/CorsairDarkCoreRGB.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Apple Magic Mouse 2",
+        "description": "Apple Magic Mouse 2 is a wireless, rechargeable mouse with a multi-touch surface. It's a must-have for any Mac user.",
+        "brand": "Apple",
+        "price": 79.99,
+        "image": "/images/AppleMagic.jpg"
+    },
+    {
+        "id": 5,
+        "name": "SteelSeries Rival 600",
+        "description": "SteelSeries Rival 600 is a gaming mouse featuring dual sensors and a comfortable design for long gaming sessions.",
+        "brand": "SteelSeries",
+        "price": 79.99,
+        "image": "/images/SteelSeriesRival600.jpg"
+    },
+    {
+        "id": 6,
+        "name": "DareU EM901X RGB",
+        "description": " very ngon.",
+        "brand": "DareU",
+        "price": 69.99,
+        "image": "/images/DareUEM901XRGB.jpg"
+    }
+]

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Mouse Store</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Computer Mouse Store</h1>
+    </header>
+
+    <main>
+        <section class="mouse-list">
+            <% mice.forEach(mouse => { %>
+                <div class="mouse-item">
+                    <img src="<%= mouse.image %>" alt="<%= mouse.name %>" class="mouse-image">
+                    <h2><%= mouse.name %></h2>
+                    <p><%= mouse.description %></p>
+                    <p><strong>Price:</strong> $<%= mouse.price %></p>
+                    <p><strong>Brand:</strong> <%= mouse.brand %></p>
+                    <form action="/mouse/<%= mouse.id %>" method="GET">
+                        <button type="submit" class="btn-detail">View Details</button>
+                    </form>
+                </div>
+            <% }); %>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Computer Mouse Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>

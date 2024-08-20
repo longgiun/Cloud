@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= mouse.name %> Details</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <header>
+        <h1><%= mouse.name %> - Details</h1>
+    </header>
+
+    <main>
+        <section class="mouse-detail">
+            <img src="<%= mouse.image %>" alt="<%= mouse.name %>" class="mouse-image-detail">
+            <p><strong>Brand:</strong> <%= mouse.brand %></p>
+            <p><strong>Description:</strong> <%= mouse.description %></p>
+            <p><strong>Price:</strong> $<%= mouse.price %></p>
+            <a href="/" class="btn-back">Back to list</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Computer Mouse Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>

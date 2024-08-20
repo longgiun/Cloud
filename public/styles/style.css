@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mouse-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.mouse-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.mouse-item:hover {
+    transform: translateY(-5px);
+}
+
+.mouse-item h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.mouse-item p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.mouse-image {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    height: auto;
+    object-fit: cover;
+    width: 100%;
+    max-height: 200px;
+}
+
+.btn-detail {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 1rem;
+}
+
+.btn-detail:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.mouse-detail {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mouse-detail p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.mouse-image-detail {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-back {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+.btn-back:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
